@@ -1,0 +1,29 @@
+<Solution>
+  <Folder Name="/CSharpPF/">
+    <Project Path="CSharpPF/10hetTypeString/10hetTypeString.csproj" />
+    <Project Path="CSharpPF/11datumTijd/11datumTijd.csproj" />
+    <Project Path="CSharpPF/12selecties/12selecties.csproj" />
+    <Project Path="CSharpPF/13iteraties/13iteraties.csproj" />
+    <Project Path="CSharpPF/15functiesEnProcedures/15functiesEnProcedures.csproj" />
+    <Project Path="CSharpPF/16debuggingInVSCode/16debuggingInVSCode.csproj" />
+    <Project Path="CSharpPF/18arrays/18arrays.csproj" />
+    <Project Path="CSharpPF/19Enum/19Enum.csproj" />
+    <Project Path="CSharpPF/20ClassesEnObjects/20ClassesEnObjects.csproj" />
+    <Project Path="CSharpPF/21Methods/21Methods.csproj" />
+    <Project Path="CSharpPF/22Constructors/22Constructors.csproj" />
+    <Project Path="CSharpPF/CSharpPFCursus/CSharpPFCursus.csproj" />
+  </Folder>
+  <Folder Name="/CSharpPFOefeningen/">
+    <Project Path="CSharpPFOefeningen/1variabelenConstantenEnBewerkingen/1variabelenConstantenEnBewerkingen.csproj" />
+    <Project Path="CSharpPFOefeningen/2strings/2strings.csproj" />
+    <Project Path="CSharpPFOefeningen/3selecties/3selecties.csproj" />
+    <Project Path="CSharpPFOefeningen/4iteraties/4iteraties.csproj" />
+    <Project Path="CSharpPFOefeningen/5functies/5functies.csproj" />
+    <Project Path="CSharpPFOefeningen/6arrays/6arrays.csproj" />
+    <Project Path="CSharpPFOefeningen/7ClassesEnObjects/7ClassesEnObjects.csproj" />
+    <Project Path="CSharpPFOefeningen/8ClassesEnObjectsMethods/8ClassesEnObjectsMethods.csproj" />
+    <Project Path="CSharpPFOefeningen/9ClassesEnObjectsConstructors/9ClassesEnObjectsConstructors.csproj" />
+    <Project Path="CSharpPFOefeningen/RekeningVoetuig/RekeningVoetuig.csproj" />
+  </Folder>
+  <Project Path="CSharpPFCursus/CSharpPFCursus.csproj" />
+</Solution>
