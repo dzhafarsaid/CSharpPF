@@ -11,7 +11,7 @@ public abstract class Werknemer
         while (Personeelsfeest.DayOfWeek != DayOfWeek.Friday)
             Personeelsfeest = Personeelsfeest.AddDays(1);
     }
-
+    //Default constructor
     public Werknemer()
     {
         this.Naam = "Onbekend";
@@ -21,12 +21,19 @@ public abstract class Werknemer
 
     public Werknemer(string naam, DateTime inDienst, Geslacht geslacht)
     {
-        this.Naam = naam;
-        this.InDienst = inDienst;
-        this.Geslacht = geslacht;
+        Naam = naam;
+        InDienst = inDienst;
+        Geslacht = geslacht;
     }
 
     // ── Fields ─────────────────────────────────────────
+    private Afdeling afdeling;
+    public Afdeling Afdeling
+    {
+        get { return afdeling; }
+        set { afdeling = value; }
+    }
+
     public abstract decimal Premie
     {
         get;
@@ -40,7 +47,7 @@ public abstract class Werknemer
     public string Naam
     {
         get { return naam; }
-        init { if (value != string.Empty) naam = value; }
+        set { if (value != string.Empty) naam = value; }
     }
 
     public Geslacht Geslacht { get; set; }
@@ -58,7 +65,8 @@ public abstract class Werknemer
         return $"Naam: {Naam}\n" +
                $"Geslacht: {Geslacht}\n" +
                $"In dienst: {InDienst}\n" +
-               $"Personeelsfeest: {Personeelsfeest}";
+               $"Personeelsfeest: {Personeelsfeest}\n" +
+               $"{(Afdeling is not null? Afdeling.ToString() : "Onbekende afdeling")}";
     }
 
     public override string ToString()
@@ -98,7 +106,7 @@ public class Arbeider : Werknemer
     {
         get
         {
-            return Uurloon *150m;
+            return Uurloon * 150m;
         }
     }
 
