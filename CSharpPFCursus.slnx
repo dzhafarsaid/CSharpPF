@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CSharpPFCursus/CSharpPFCursus.csproj" />
+  <Project Path="CSharpPFOefeningen/CSharpPFOefeningen.csproj" />
+</Solution>
