@@ -61,12 +61,29 @@
 // Console.WriteLine(niels.GetInfo());
 // Console.WriteLine(hawa.GetInfo());
 
+// Vrachtwagen mijnVrachtwagen = new Vrachtwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f, 1000f);
+// Console.WriteLine(mijnVrachtwagen.GetVoertuigInfo());
+// Console.WriteLine($"Kyotoscore: {mijnVrachtwagen.GetKyotoScore():F2}");
+// Console.WriteLine();
+// Personenwagen mijnPersonenwagen = new Personenwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f);
+// Console.WriteLine(mijnPersonenwagen.GetVoertuigInfo());
+// Console.WriteLine($"Kyotoscore: {mijnPersonenwagen.GetKyotoScore():F2}");
 
+Rekening[] mijn = new Rekening[2];
+mijn[0] = new Spaarrekening("BE68539007547034", 0, DateOnly.FromDateTime(DateTime.Today));
+mijn[1] = new Zichtrekening("BE68539007547034", 0, DateOnly.FromDateTime(DateTime.Today), 0.01m);
 
-Vrachtwagen mijnVrachtwagen = new Vrachtwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f, 1000f);
-Console.WriteLine(mijnVrachtwagen.GetVoertuigInfo());
-Console.WriteLine($"Kyotoscore: {mijnVrachtwagen.GetKyotoScore():F2}");
-Console.WriteLine();
-Personenwagen mijnPersonenwagen = new Personenwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f);
-Console.WriteLine(mijnPersonenwagen.GetVoertuigInfo());
-Console.WriteLine($"Kyotoscore: {mijnPersonenwagen.GetKyotoScore():F2}");
+foreach (Rekening eenRekening in mijn)
+{
+    Console.WriteLine(eenRekening.GetInfo());
+}
+
+Voertuig[] mijnVagens = new Voertuig[2];
+mijnVagens[0] = new Vrachtwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f, 1000f);
+mijnVagens[1] = new Personenwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f);
+
+foreach (Voertuig eenVagen in mijnVagens)
+{
+    Console.WriteLine(eenVagen.GetVoertuigInfo());
+    Console.WriteLine(eenVagen.GetKyotoScore());
+}
