@@ -2,7 +2,7 @@ using System;
 
 namespace CSharpPFCursus.model;
 
-public abstract class Werknemer
+public abstract partial class Werknemer : IKost
 {
     // ── Constructors ───────────────────────────────────
     static Werknemer()
@@ -25,7 +25,7 @@ public abstract class Werknemer
         InDienst = inDienst;
         Geslacht = geslacht;
     }
-
+    
     // ── Fields ─────────────────────────────────────────
     private Afdeling afdeling;
     public Afdeling Afdeling
@@ -43,6 +43,8 @@ public abstract class Werknemer
     private string naam = "Onbekend";
     public static DateOnly personeelsfeest;
 
+    public WerkRegime Regime { get; set; }
+
     // ── Properties ─────────────────────────────────────
     public string Naam
     {
@@ -59,6 +61,10 @@ public abstract class Werknemer
         set { personeelsfeest = value; }
     }
 
+    public bool Menselijk
+    {
+        get { return true;}    
+    }
     // ── Methods ────────────────────────────────────────
     public virtual string GetInfo()
     {
@@ -73,6 +79,8 @@ public abstract class Werknemer
     {
         return $"{Naam} {Geslacht}";
     }
+
+    public abstract decimal BerekenKostprijs();
 }
 
 // ══════════════════════════════════════════════════════
@@ -135,6 +143,11 @@ public class Arbeider : Werknemer
     {
         return $"{base.ToString()} {Uurloon} euro/uur";
     }
+
+    public override decimal BerekenKostprijs()
+    {
+        return Uurloon * 2000m;
+    }
 }
 
 // ══════════════════════════════════════════════════════
@@ -179,6 +192,11 @@ public class Bediende : Werknemer
     {
         return $"{base.ToString()} {Wedde} euro/maand";
     }
+
+    public override decimal BerekenKostprijs()
+    {
+        return Wedde * 12m;
+    }
 }
 
 // ══════════════════════════════════════════════════════
@@ -222,6 +240,11 @@ public class Manager : Bediende
     public override string ToString()
     {
         return $"{base.ToString()} - Bonus: {Bonus}";
+    }
+
+        public override decimal BerekenKostprijs()
+    {
+        return base.BerekenKostprijs() + Bonus;
     }
 }
 
