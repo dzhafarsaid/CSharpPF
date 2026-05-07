@@ -2,8 +2,8 @@ namespace CSharpPFOefeningen.model;
 
 public class Zichtrekening : Rekening
 {
-    public Zichtrekening(string rekeningnummer, decimal saldo, DateOnly creatiedatum, decimal maxKrediet)
-        : base(rekeningnummer, saldo, creatiedatum)
+    public Zichtrekening(string rekeningnummer, decimal saldo, DateOnly creatiedatum, decimal maxKrediet, Klant eigenaar)
+        : base(rekeningnummer, saldo, creatiedatum, eigenaar)
     {
         MaxKrediet = maxKrediet;
     }
@@ -23,8 +23,8 @@ public class Zichtrekening : Rekening
 
 public class Spaarrekening : Rekening
 {
-    public Spaarrekening(string rekeningnummer, decimal saldo, DateOnly creatiedatum)
-        : base(rekeningnummer, saldo, creatiedatum)
+    public Spaarrekening(string rekeningnummer, decimal saldo, DateOnly creatiedatum, Klant eigenaar)
+        : base(rekeningnummer, saldo, creatiedatum, eigenaar)
     {
     }
     private static decimal intrest;

@@ -5,12 +5,21 @@ namespace CSharpPFOefeningen.model;
 
 public abstract class Rekening
 {
-    public Rekening(string rekeningnummer, decimal saldo, DateOnly creatiedatum)
+    public Rekening(string rekeningnummer, decimal saldo, DateOnly creatiedatum, Klant eigenaar)
     {
-        this.Saldo = saldo;
-        this.creatiedatum = creatiedatum;
-        this.rekeningnummer = rekeningnummer;
+        Saldo = saldo;
+        Creatiedatum = creatiedatum;
+        Rekeningnummer = rekeningnummer;
+        Eigenaar = eigenaar;
     }
+
+    private Klant eigenaar;
+    public Klant Eigenaar
+    {
+        get { return eigenaar; }
+        set { eigenaar = value; }
+    }
+    
     DateOnly EersteCreatie = new DateOnly(1900, 1, 1);
     public decimal Saldo { get; set; }
     private DateOnly creatiedatum;
@@ -28,8 +37,9 @@ public abstract class Rekening
     public virtual string GetInfo()
     {
         return $"Rekeningnummer: {rekeningnummer}\n" +
+            $"Eigenaar:{Eigenaar.GetKlantInfo()}\n"+
             $"Saldo: {Saldo}\n" +
-            $"Creatie Datum: {creatiedatum}";
+            $"Creatie Datum: {creatiedatum}\n";
     }
     public void Storten(decimal bedrag)
     {
