@@ -103,12 +103,127 @@
 // Console.WriteLine(totakKost);
 
 
-Object[] dingen = new Object[3];
-dingen[0] = new Arbeider("Asterix", new DateTime(2026, 1, 1), Geslacht.Man, 24.79m, 3);
-dingen[1] = new Fotokopiemachine("123", 500, 0.025m);
-dingen[2] = "C#";
+// Object[] dingen = new Object[3];
+// dingen[0] = new Arbeider("Asterix", new DateTime(2026, 1, 1), Geslacht.Man, 24.79m, 3);
+// dingen[1] = new Fotokopiemachine("123", 500, 0.025m);
+// dingen[2] = "C#";
 
-foreach (Object ding in dingen)
+// foreach (Object ding in dingen)
+// {
+//     Console.WriteLine(ding is IKost);
+// }
+
+// Object?[] lijst = new Object?[4];
+// lijst[0] = new Arbeider("Asterix", new DateTime(2026, 1, 1), Geslacht.Man, 24.79m, 3);
+// lijst[1] = new Bediende("Obelix", new DateTime(2026, 2, 1), Geslacht.Man, 2400.79m);
+// lijst[2] = null;
+// lijst[3] = "C# 10";
+
+// foreach (var item in lijst)
+// {
+//     ToonGegevens(item);
+// }
+
+
+// static void ToonGegevens(Object? obj)
+// {
+//     if (obj is Werknemer)
+//     {
+//         Werknemer w = (Werknemer)obj;
+//         Console.WriteLine($"Werknemer {w.Naam} kost" +
+//         $" {w.BerekenKostprijs()} euro");
+//     }
+//     else if (obj is Fotokopiemachine)
+//     {
+//         Fotokopiemachine f = (Fotokopiemachine)obj;
+//         Console.WriteLine($"Fotokopiemachine {f.SerieNr} kopieerde " +
+//         $" {f.AantalGekopieerdeBlz} en kost {f.BerekenKostprijs()} euro");
+//     }
+//     else
+//     {
+//         Console.WriteLine("onbekend type");
+//     }
+// }
+
+// void ToonGegevens(Object? obj)
+// {
+//     if (obj is Werknemer w)
+//     {
+//         Console.WriteLine($"Werknemer {w.Naam} kost {w.BerekenKostprijs()} euro");
+//     }
+//     else if (obj is Fotokopiemachine f)
+//     {
+//         Console.WriteLine($"Fotokopiemachine {f.SerieNr} kopieerde " +
+//             $" {f.AantalGekopieerdeBlz} en kost {f.BerekenKostprijs()} euro");
+//     }
+//     else
+//     {
+//         Console.WriteLine("onbekend type");
+//     }
+// }
+
+// void ToonGegevens(Object? obj)
+// {
+//     switch (obj)
+//     {
+//         case Werknemer w:
+//             Console.WriteLine($"Werknemer {w.Naam} kost {w.BerekenKostprijs()} euro");
+//             break;
+//         case Fotokopiemachine f:
+//             Console.WriteLine($"Fotokopiemachine {f.SerieNr} kopieerde " +
+//                 $" {f.AantalGekopieerdeBlz} en kost {f.BerekenKostprijs()} euro");
+//             break;
+//         case null:
+//             Console.WriteLine("Parameter = null");
+//         break;
+//         default:
+//             Console.WriteLine("onbekend type");
+//         break;
+//     }
+// }
+
+
+Object?[] lijst = new Object?[5];
+lijst[0] = new Arbeider("Asterix", new DateTime(2026, 1, 1), Geslacht.Man, 24.79m, 3);
+lijst[1] = new Bediende("Obelix", new DateTime(2026, 2, 1), Geslacht.Man, 2400.79m);
+lijst[2] = new Bediende("Walhalla", new DateTime(2026, 2, 1), Geslacht.Vrouw, 2000m);
+lijst[3] = null;
+lijst[4] = "C# 10";
+
+foreach (var item in lijst)
 {
-    Console.WriteLine(ding is IKost);
+    switch (item)
+    {
+
+        case Arbeider a when a.Geslacht == Geslacht.Vrouw:
+            Console.WriteLine($"{a.Naam}" +
+                $" is een vrouwelijke arbeider " +
+                $"met een uurloon van {a.Uurloon} euro");
+            break;
+        case Arbeider a when a.Geslacht == Geslacht.Man:
+            Console.WriteLine($"{a.Naam} " +
+                $"is een mannelijke arbeider" +
+                $" met een uurloon van {a.Uurloon} euro");
+            break;
+        case Bediende b when b.Geslacht == Geslacht.Vrouw:
+            Console.WriteLine($"{b.Naam} " +
+                $"is een vrouwelijke bediende" +
+                $" met een wedde van {b.Wedde} euro");
+            break;
+        case Bediende b when b.Geslacht == Geslacht.Man:
+            Console.WriteLine($"{b.Naam} " +
+                $"is een mannelijke bediende " +
+                $"met een wedde van {b.Wedde} euro");
+            break;
+        case Werknemer w when w.Geslacht == Geslacht.Man:
+            Console.WriteLine($"{w.Naam}" +
+                $" is een mannelijke werknemer");
+            break;
+        case null:
+            Console.WriteLine($"null");
+            break;
+        default:
+            Console.WriteLine($"{item} is geen werknemer");
+            break;
+    }
 }
