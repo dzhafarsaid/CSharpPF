@@ -3,7 +3,7 @@ using System;
 namespace CSharpPFOefeningen.model;
 
 
-public abstract class Rekening
+public abstract class Rekening : ISpaarmiddel
 {
     public Rekening(string rekeningnummer, decimal saldo, DateOnly creatiedatum, Klant eigenaar)
     {

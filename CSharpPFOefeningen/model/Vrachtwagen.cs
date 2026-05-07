@@ -1,6 +1,6 @@
 namespace CSharpPFOefeningen.model;
 
-public class Vrachtwagen : Voertuig
+public class Vrachtwagen : Voertuig, IVervuiler, IPrivaat, IMilieu
 {
     public Vrachtwagen(string polishouder, string nummerplaat = "onbepaald",
         decimal kostprijs = 0, int pk = 0, float gemiddeldVerbruik = 0f, float maximumLading = 0f)
@@ -27,9 +27,14 @@ public class Vrachtwagen : Voertuig
         if (MaximumLading == 0) return 0;
         return (GemiddeldVerbruik * Pk) / maximumLading;
     }
+
+    public override double GeefVervuiling()
+    {
+        return GetKyotoScore() * 20;
+    }
 }
 
-public class Personenwagen : Voertuig
+public class Personenwagen : Voertuig, IVervuiler, IPrivaat, IMilieu
 {
     public Personenwagen(string polishouder, string nummerplaat = "onbepaald",
         decimal kostprijs = 0, int pk = 0, float gemiddeldVerbruik = 0f,
@@ -65,5 +70,10 @@ public class Personenwagen : Voertuig
     {
         if (AantalPassagiers == 0) return 0;
         return (GemiddeldVerbruik * Pk) / aantalPassagiers;
+    }
+
+    public override double GeefVervuiling()
+    {
+        return GetKyotoScore() * 5;
     }
 }

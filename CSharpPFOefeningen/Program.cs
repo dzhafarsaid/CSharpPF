@@ -88,13 +88,58 @@
 //     Console.WriteLine(eenVagen.GetKyotoScore());
 // }
 
-Klant ik = new Klant
+// Klant ik = new Klant
+// {
+//     Voornaam = "Dzhafar",
+//     Familienaam = "Said"
+// };
+// Rekening mijnSpaarRekening = new Spaarrekening("BE68539007547034", 0, DateOnly.FromDateTime(DateTime.Today), ik);
+// Rekening mijnZichtRekening = new Zichtrekening("BE68539007547034", 0, DateOnly.FromDateTime(DateTime.Today), 0.03m, ik);
+// Console.WriteLine(ik.GetKlantInfo());
+// Console.WriteLine(mijnSpaarRekening.GetInfo());
+// Console.WriteLine(mijnZichtRekening.GetInfo());
+
+// Klant ik = new Klant
+// {
+//     Voornaam = "Dzhafar",
+//     Familienaam = "Said"
+// };
+
+// ISpaarmiddel[] rekeningen = new ISpaarmiddel[3];
+// rekeningen[0] = new Zichtrekening("BE68539007547034", 0, DateOnly.FromDateTime(DateTime.Today), 0.03m, ik);
+// rekeningen[1] = new Spaarrekening("BE68539007547034", 0, DateOnly.FromDateTime(DateTime.Today), ik);
+// rekeningen[2] = new Kasbon(DateOnly.FromDateTime(DateTime.Today), 2.35m, 4, 0.03m, ik);
+
+// foreach (ISpaarmiddel rekening in rekeningen)
+// {
+//      Console.WriteLine(rekening.GetInfo());
+// }
+
+// IVervuiler[] wagens = new IVervuiler[3];
+// wagens[0] = new Vrachtwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f, 5f);
+// wagens[1] = new Personenwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f, 4, 5);
+// wagens[2] = new Stookketel(7.5f);
+
+// foreach (IVervuiler wagen in wagens)
+// {
+//      Console.WriteLine(wagen.GeefVervuiling());
+// }
+
+IPrivaat[] wagens = new IPrivaat[2];
+wagens[0] = new Vrachtwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f, 5f);
+wagens[1] = new Personenwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f, 4, 5);
+
+
+foreach (IPrivaat wagen in wagens)
 {
-    Voornaam = "Dzhafar",
-    Familienaam = "Said"
-};
-Rekening mijnSpaarRekening = new Spaarrekening("BE68539007547034", 0, DateOnly.FromDateTime(DateTime.Today), ik);
-Rekening mijnZichtRekening = new Zichtrekening("BE68539007547034", 0, DateOnly.FromDateTime(DateTime.Today), 0.03m, ik);
-Console.WriteLine(ik.GetKlantInfo());
-Console.WriteLine(mijnSpaarRekening.GetInfo());
-Console.WriteLine(mijnZichtRekening.GetInfo());
+     Console.WriteLine(wagen.GeefPrivateData());
+}
+
+IMilieu[] wagens2 = new IMilieu[2];
+wagens2[0] = new Vrachtwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f, 5f);
+wagens2[1] = new Personenwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f, 4, 5);
+
+foreach (IMilieu wagen2 in wagens)
+{
+     Console.WriteLine(wagen2.GeefMilieuData());
+}
