@@ -1,6 +1,6 @@
 using System;
 
-namespace CSharpPFCursus.model;
+namespace Firma.Personeel;
 
 public abstract partial class Werknemer
 {

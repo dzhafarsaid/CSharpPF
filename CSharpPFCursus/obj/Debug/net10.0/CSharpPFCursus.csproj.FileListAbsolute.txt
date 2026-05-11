@@ -1,0 +1,15 @@
+C:\Users\jafar\Documents\CSharpPF\CSharpPFCursus\bin\Debug\net10.0\CSharpPFCursus.exe
+C:\Users\jafar\Documents\CSharpPF\CSharpPFCursus\bin\Debug\net10.0\CSharpPFCursus.deps.json
+C:\Users\jafar\Documents\CSharpPF\CSharpPFCursus\bin\Debug\net10.0\CSharpPFCursus.runtimeconfig.json
+C:\Users\jafar\Documents\CSharpPF\CSharpPFCursus\bin\Debug\net10.0\CSharpPFCursus.dll
+C:\Users\jafar\Documents\CSharpPF\CSharpPFCursus\bin\Debug\net10.0\CSharpPFCursus.pdb
+C:\Users\jafar\Documents\CSharpPF\CSharpPFCursus\obj\Debug\net10.0\CSharpPFCursus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jafar\Documents\CSharpPF\CSharpPFCursus\obj\Debug\net10.0\CSharpPFCursus.AssemblyInfoInputs.cache
+C:\Users\jafar\Documents\CSharpPF\CSharpPFCursus\obj\Debug\net10.0\CSharpPFCursus.AssemblyInfo.cs
+C:\Users\jafar\Documents\CSharpPF\CSharpPFCursus\obj\Debug\net10.0\CSharpPFCursus.csproj.CoreCompileInputs.cache
+C:\Users\jafar\Documents\CSharpPF\CSharpPFCursus\obj\Debug\net10.0\CSharpPFCursus.sourcelink.json
+C:\Users\jafar\Documents\CSharpPF\CSharpPFCursus\obj\Debug\net10.0\CSharpPFCursus.dll
+C:\Users\jafar\Documents\CSharpPF\CSharpPFCursus\obj\Debug\net10.0\refint\CSharpPFCursus.dll
+C:\Users\jafar\Documents\CSharpPF\CSharpPFCursus\obj\Debug\net10.0\CSharpPFCursus.pdb
+C:\Users\jafar\Documents\CSharpPF\CSharpPFCursus\obj\Debug\net10.0\CSharpPFCursus.genruntimeconfig.cache
+C:\Users\jafar\Documents\CSharpPF\CSharpPFCursus\obj\Debug\net10.0\ref\CSharpPFCursus.dll

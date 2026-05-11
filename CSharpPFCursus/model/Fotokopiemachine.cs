@@ -1,6 +1,6 @@
 using System;
 
-namespace CSharpPFCursus.model;
+namespace Firma.Materiaal;
 
 public class Fotokopiemachine : IKost
 {

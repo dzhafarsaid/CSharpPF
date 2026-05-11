@@ -1,4 +1,9 @@
-﻿using CSharpPFCursus.model;
+﻿using MateriaalStatus = Firma.Materiaal.Status;
+using PersoneelStatus = Firma.Personeel.Status;
+MateriaalStatus statusBoorMachine = MateriaalStatus.Werkend;
+PersoneelStatus statusChef = PersoneelStatus.HogerKader;
+
+
 
 // Werknemer ik = new()
 // {
@@ -183,47 +188,56 @@
 // }
 
 
-Object?[] lijst = new Object?[5];
-lijst[0] = new Arbeider("Asterix", new DateTime(2026, 1, 1), Geslacht.Man, 24.79m, 3);
-lijst[1] = new Bediende("Obelix", new DateTime(2026, 2, 1), Geslacht.Man, 2400.79m);
-lijst[2] = new Bediende("Walhalla", new DateTime(2026, 2, 1), Geslacht.Vrouw, 2000m);
-lijst[3] = null;
-lijst[4] = "C# 10";
+//Object?[] lijst = new Object?[5];
+//lijst[0] = new Arbeider("Asterix", new DateTime(2026, 1, 1), Geslacht.Man, 24.79m, 3);
+//lijst[1] = new Bediende("Obelix", new DateTime(2026, 2, 1), Geslacht.Man, 2400.79m);
+//lijst[2] = new Bediende("Walhalla", new DateTime(2026, 2, 1), Geslacht.Vrouw, 2000m);
+//lijst[3] = null;
+//lijst[4] = "C# 10";
 
-foreach (var item in lijst)
-{
-    switch (item)
-    {
+//foreach (var item in lijst)
+//{
+//    switch (item)
+//    {
 
-        case Arbeider a when a.Geslacht == Geslacht.Vrouw:
-            Console.WriteLine($"{a.Naam}" +
-                $" is een vrouwelijke arbeider " +
-                $"met een uurloon van {a.Uurloon} euro");
-            break;
-        case Arbeider a when a.Geslacht == Geslacht.Man:
-            Console.WriteLine($"{a.Naam} " +
-                $"is een mannelijke arbeider" +
-                $" met een uurloon van {a.Uurloon} euro");
-            break;
-        case Bediende b when b.Geslacht == Geslacht.Vrouw:
-            Console.WriteLine($"{b.Naam} " +
-                $"is een vrouwelijke bediende" +
-                $" met een wedde van {b.Wedde} euro");
-            break;
-        case Bediende b when b.Geslacht == Geslacht.Man:
-            Console.WriteLine($"{b.Naam} " +
-                $"is een mannelijke bediende " +
-                $"met een wedde van {b.Wedde} euro");
-            break;
-        case Werknemer w when w.Geslacht == Geslacht.Man:
-            Console.WriteLine($"{w.Naam}" +
-                $" is een mannelijke werknemer");
-            break;
-        case null:
-            Console.WriteLine($"null");
-            break;
-        default:
-            Console.WriteLine($"{item} is geen werknemer");
-            break;
-    }
-}
+//        case Arbeider a when a.Geslacht == Geslacht.Vrouw:
+//            Console.WriteLine($"{a.Naam}" +
+//                $" is een vrouwelijke arbeider " +
+//                $"met een uurloon van {a.Uurloon} euro");
+//            break;
+//        case Arbeider a when a.Geslacht == Geslacht.Man:
+//            Console.WriteLine($"{a.Naam} " +
+//                $"is een mannelijke arbeider" +
+//                $" met een uurloon van {a.Uurloon} euro");
+//            break;
+//        case Bediende b when b.Geslacht == Geslacht.Vrouw:
+//            Console.WriteLine($"{b.Naam} " +
+//                $"is een vrouwelijke bediende" +
+//                $" met een wedde van {b.Wedde} euro");
+//            break;
+//        case Bediende b when b.Geslacht == Geslacht.Man:
+//            Console.WriteLine($"{b.Naam} " +
+//                $"is een mannelijke bediende " +
+//                $"met een wedde van {b.Wedde} euro");
+//            break;
+//        case Werknemer w when w.Geslacht == Geslacht.Man:
+//            Console.WriteLine($"{w.Naam}" +
+//                $" is een mannelijke werknemer");
+//            break;
+//        case null:
+//            Console.WriteLine($"null");
+//            break;
+//        default:
+//            Console.WriteLine($"{item} is geen werknemer");
+//            break;
+//    }
+//}
+
+Firma.Materiaal.Status statusBoorMachine = Firma.Materiaal.Status.Werkend;
+Firma.Personeel.Status statusChef = Firma.Personeel.Status.HogerKader;
+Console.WriteLine(statusBoorMachine);
+Console.WriteLine(statusChef);
+Console.WriteLine("hey");
+
+Console.WriteLine(statusBoorMachine);
+Console.WriteLine(statusChef);

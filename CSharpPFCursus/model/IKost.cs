@@ -1,6 +1,6 @@
 using System;
 
-namespace CSharpPFCursus.model;
+namespace Firma;
 
 public interface IKost
 {

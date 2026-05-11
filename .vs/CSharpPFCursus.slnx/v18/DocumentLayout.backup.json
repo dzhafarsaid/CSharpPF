@@ -1,0 +1,174 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jafar\\Documents\\CSharpPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|c:\\users\\jafar\\documents\\csharppf\\csharppfcursus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|solutionrelative:csharppfcursus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|c:\\users\\jafar\\documents\\csharppf\\csharppfcursus\\statuspersoneel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|solutionrelative:csharppfcursus\\statuspersoneel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|c:\\users\\jafar\\documents\\csharppf\\csharppfcursus\\statusmateriaal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|solutionrelative:csharppfcursus\\statusmateriaal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|c:\\users\\jafar\\documents\\csharppf\\csharppfcursus\\csharppfcursus.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|solutionrelative:csharppfcursus\\csharppfcursus.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|c:\\users\\jafar\\documents\\csharppf\\csharppfcursus\\model\\fotokopiemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|solutionrelative:csharppfcursus\\model\\fotokopiemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|c:\\users\\jafar\\documents\\csharppf\\csharppfcursus\\model\\werkregime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|solutionrelative:csharppfcursus\\model\\werkregime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|c:\\users\\jafar\\documents\\csharppf\\csharppfcursus\\model\\bediende.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|solutionrelative:csharppfcursus\\model\\bediende.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|c:\\users\\jafar\\documents\\csharppf\\csharppfcursus\\model\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|solutionrelative:csharppfcursus\\model\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|c:\\users\\jafar\\documents\\csharppf\\csharppfcursus\\model\\werknemer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0E0890-90E8-E526-D92B-1B3566F7267D}|CSharpPFCursus\\CSharpPFCursus.csproj|solutionrelative:csharppfcursus\\model\\werknemer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CSharpPFCursus",
+              "DocumentMoniker": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\CSharpPFCursus.csproj",
+              "RelativeDocumentMoniker": "CSharpPFCursus\\CSharpPFCursus.csproj",
+              "ToolTip": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\CSharpPFCursus.csproj",
+              "RelativeToolTip": "CSharpPFCursus\\CSharpPFCursus.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-10T12:58:13.653Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StatusPersoneel.cs",
+              "DocumentMoniker": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\StatusPersoneel.cs",
+              "RelativeDocumentMoniker": "CSharpPFCursus\\StatusPersoneel.cs",
+              "ToolTip": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\StatusPersoneel.cs",
+              "RelativeToolTip": "CSharpPFCursus\\StatusPersoneel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T13:23:04.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StatusMateriaal.cs",
+              "DocumentMoniker": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\StatusMateriaal.cs",
+              "RelativeDocumentMoniker": "CSharpPFCursus\\StatusMateriaal.cs",
+              "ToolTip": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\StatusMateriaal.cs",
+              "RelativeToolTip": "CSharpPFCursus\\StatusMateriaal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T13:22:34.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\Program.cs",
+              "RelativeDocumentMoniker": "CSharpPFCursus\\Program.cs",
+              "ToolTip": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\Program.cs",
+              "RelativeToolTip": "CSharpPFCursus\\Program.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAAAOgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T12:55:36.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Fotokopiemachine.cs",
+              "DocumentMoniker": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\model\\Fotokopiemachine.cs",
+              "RelativeDocumentMoniker": "CSharpPFCursus\\model\\Fotokopiemachine.cs",
+              "ToolTip": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\model\\Fotokopiemachine.cs",
+              "RelativeToolTip": "CSharpPFCursus\\model\\Fotokopiemachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T12:53:26.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WerkRegime.cs",
+              "DocumentMoniker": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\model\\WerkRegime.cs",
+              "RelativeDocumentMoniker": "CSharpPFCursus\\model\\WerkRegime.cs",
+              "ToolTip": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\model\\WerkRegime.cs",
+              "RelativeToolTip": "CSharpPFCursus\\model\\WerkRegime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T12:53:06.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\model\\Manager.cs",
+              "RelativeDocumentMoniker": "CSharpPFCursus\\model\\Manager.cs",
+              "ToolTip": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\model\\Manager.cs",
+              "RelativeToolTip": "CSharpPFCursus\\model\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T12:50:49.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Werknemer.cs",
+              "DocumentMoniker": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\model\\Werknemer.cs",
+              "RelativeDocumentMoniker": "CSharpPFCursus\\model\\Werknemer.cs",
+              "ToolTip": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\model\\Werknemer.cs",
+              "RelativeToolTip": "CSharpPFCursus\\model\\Werknemer.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAwJcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T12:47:18.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bediende.cs",
+              "DocumentMoniker": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\model\\Bediende.cs",
+              "RelativeDocumentMoniker": "CSharpPFCursus\\model\\Bediende.cs",
+              "ToolTip": "C:\\Users\\jafar\\Documents\\CSharpPF\\CSharpPFCursus\\model\\Bediende.cs",
+              "RelativeToolTip": "CSharpPFCursus\\model\\Bediende.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T12:49:13.393Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

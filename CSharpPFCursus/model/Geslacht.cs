@@ -1,4 +1,4 @@
-namespace CSharpPFCursus.model;
+namespace Firma.Personeel;
 
 public enum Geslacht
 {
