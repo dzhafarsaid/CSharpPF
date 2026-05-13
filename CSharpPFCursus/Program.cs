@@ -1,7 +1,5 @@
 ﻿using MateriaalStatus = Firma.Materiaal.Status;
 using PersoneelStatus = Firma.Personeel.Status;
-MateriaalStatus statusBoorMachine = MateriaalStatus.Werkend;
-PersoneelStatus statusChef = PersoneelStatus.HogerKader;
 
 
 
@@ -233,11 +231,7 @@ PersoneelStatus statusChef = PersoneelStatus.HogerKader;
 //    }
 //}
 
-Firma.Materiaal.Status statusBoorMachine = Firma.Materiaal.Status.Werkend;
-Firma.Personeel.Status statusChef = Firma.Personeel.Status.HogerKader;
-Console.WriteLine(statusBoorMachine);
-Console.WriteLine(statusChef);
-Console.WriteLine("hey");
-
+MateriaalStatus statusBoorMachine = MateriaalStatus.Werkend;
+PersoneelStatus statusChef = PersoneelStatus.HogerKader;
 Console.WriteLine(statusBoorMachine);
 Console.WriteLine(statusChef);

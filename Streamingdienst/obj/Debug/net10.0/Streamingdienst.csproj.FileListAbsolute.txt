@@ -1,0 +1,15 @@
+/Users/dzhafarsaid/Documents/CSharpPF/Streamingdienst/bin/Debug/net10.0/Streamingdienst
+/Users/dzhafarsaid/Documents/CSharpPF/Streamingdienst/bin/Debug/net10.0/Streamingdienst.deps.json
+/Users/dzhafarsaid/Documents/CSharpPF/Streamingdienst/bin/Debug/net10.0/Streamingdienst.runtimeconfig.json
+/Users/dzhafarsaid/Documents/CSharpPF/Streamingdienst/bin/Debug/net10.0/Streamingdienst.dll
+/Users/dzhafarsaid/Documents/CSharpPF/Streamingdienst/bin/Debug/net10.0/Streamingdienst.pdb
+/Users/dzhafarsaid/Documents/CSharpPF/Streamingdienst/obj/Debug/net10.0/Streamingdienst.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dzhafarsaid/Documents/CSharpPF/Streamingdienst/obj/Debug/net10.0/Streamingdienst.AssemblyInfoInputs.cache
+/Users/dzhafarsaid/Documents/CSharpPF/Streamingdienst/obj/Debug/net10.0/Streamingdienst.AssemblyInfo.cs
+/Users/dzhafarsaid/Documents/CSharpPF/Streamingdienst/obj/Debug/net10.0/Streamingdienst.csproj.CoreCompileInputs.cache
+/Users/dzhafarsaid/Documents/CSharpPF/Streamingdienst/obj/Debug/net10.0/Streamingdienst.sourcelink.json
+/Users/dzhafarsaid/Documents/CSharpPF/Streamingdienst/obj/Debug/net10.0/Streamingdienst.dll
+/Users/dzhafarsaid/Documents/CSharpPF/Streamingdienst/obj/Debug/net10.0/refint/Streamingdienst.dll
+/Users/dzhafarsaid/Documents/CSharpPF/Streamingdienst/obj/Debug/net10.0/Streamingdienst.pdb
+/Users/dzhafarsaid/Documents/CSharpPF/Streamingdienst/obj/Debug/net10.0/Streamingdienst.genruntimeconfig.cache
+/Users/dzhafarsaid/Documents/CSharpPF/Streamingdienst/obj/Debug/net10.0/ref/Streamingdienst.dll

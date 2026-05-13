@@ -1,0 +1,14 @@
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/15functiesEnProcedures/bin/Debug/net10.0/15functiesEnProcedures
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/15functiesEnProcedures/bin/Debug/net10.0/15functiesEnProcedures.deps.json
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/15functiesEnProcedures/bin/Debug/net10.0/15functiesEnProcedures.runtimeconfig.json
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/15functiesEnProcedures/bin/Debug/net10.0/15functiesEnProcedures.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/15functiesEnProcedures/bin/Debug/net10.0/15functiesEnProcedures.pdb
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/15functiesEnProcedures/obj/Debug/net10.0/15functiesEnProcedures.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/15functiesEnProcedures/obj/Debug/net10.0/15functiesEnProcedures.AssemblyInfoInputs.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/15functiesEnProcedures/obj/Debug/net10.0/15functiesEnProcedures.AssemblyInfo.cs
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/15functiesEnProcedures/obj/Debug/net10.0/15functiesEnProcedures.csproj.CoreCompileInputs.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/15functiesEnProcedures/obj/Debug/net10.0/15functiesEnProcedures.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/15functiesEnProcedures/obj/Debug/net10.0/refint/15functiesEnProcedures.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/15functiesEnProcedures/obj/Debug/net10.0/15functiesEnProcedures.pdb
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/15functiesEnProcedures/obj/Debug/net10.0/15functiesEnProcedures.genruntimeconfig.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/15functiesEnProcedures/obj/Debug/net10.0/ref/15functiesEnProcedures.dll

@@ -1,0 +1,15 @@
+/Users/dzhafarsaid/Documents/CSharpPF/BoekBoekenrek/bin/Debug/net10.0/BoekBoekenrek
+/Users/dzhafarsaid/Documents/CSharpPF/BoekBoekenrek/bin/Debug/net10.0/BoekBoekenrek.deps.json
+/Users/dzhafarsaid/Documents/CSharpPF/BoekBoekenrek/bin/Debug/net10.0/BoekBoekenrek.runtimeconfig.json
+/Users/dzhafarsaid/Documents/CSharpPF/BoekBoekenrek/bin/Debug/net10.0/BoekBoekenrek.dll
+/Users/dzhafarsaid/Documents/CSharpPF/BoekBoekenrek/bin/Debug/net10.0/BoekBoekenrek.pdb
+/Users/dzhafarsaid/Documents/CSharpPF/BoekBoekenrek/obj/Debug/net10.0/BoekBoekenrek.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dzhafarsaid/Documents/CSharpPF/BoekBoekenrek/obj/Debug/net10.0/BoekBoekenrek.AssemblyInfoInputs.cache
+/Users/dzhafarsaid/Documents/CSharpPF/BoekBoekenrek/obj/Debug/net10.0/BoekBoekenrek.AssemblyInfo.cs
+/Users/dzhafarsaid/Documents/CSharpPF/BoekBoekenrek/obj/Debug/net10.0/BoekBoekenrek.csproj.CoreCompileInputs.cache
+/Users/dzhafarsaid/Documents/CSharpPF/BoekBoekenrek/obj/Debug/net10.0/BoekBoekenrek.sourcelink.json
+/Users/dzhafarsaid/Documents/CSharpPF/BoekBoekenrek/obj/Debug/net10.0/BoekBoekenrek.dll
+/Users/dzhafarsaid/Documents/CSharpPF/BoekBoekenrek/obj/Debug/net10.0/refint/BoekBoekenrek.dll
+/Users/dzhafarsaid/Documents/CSharpPF/BoekBoekenrek/obj/Debug/net10.0/BoekBoekenrek.pdb
+/Users/dzhafarsaid/Documents/CSharpPF/BoekBoekenrek/obj/Debug/net10.0/BoekBoekenrek.genruntimeconfig.cache
+/Users/dzhafarsaid/Documents/CSharpPF/BoekBoekenrek/obj/Debug/net10.0/ref/BoekBoekenrek.dll

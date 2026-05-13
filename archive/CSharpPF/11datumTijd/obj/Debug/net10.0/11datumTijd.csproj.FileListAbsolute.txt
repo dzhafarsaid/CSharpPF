@@ -1,0 +1,14 @@
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/11datumTijd/bin/Debug/net10.0/11datumTijd
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/11datumTijd/bin/Debug/net10.0/11datumTijd.deps.json
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/11datumTijd/bin/Debug/net10.0/11datumTijd.runtimeconfig.json
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/11datumTijd/bin/Debug/net10.0/11datumTijd.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/11datumTijd/bin/Debug/net10.0/11datumTijd.pdb
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/11datumTijd/obj/Debug/net10.0/11datumTijd.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/11datumTijd/obj/Debug/net10.0/11datumTijd.AssemblyInfoInputs.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/11datumTijd/obj/Debug/net10.0/11datumTijd.AssemblyInfo.cs
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/11datumTijd/obj/Debug/net10.0/11datumTijd.csproj.CoreCompileInputs.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/11datumTijd/obj/Debug/net10.0/11datumTijd.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/11datumTijd/obj/Debug/net10.0/refint/11datumTijd.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/11datumTijd/obj/Debug/net10.0/11datumTijd.pdb
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/11datumTijd/obj/Debug/net10.0/11datumTijd.genruntimeconfig.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/11datumTijd/obj/Debug/net10.0/ref/11datumTijd.dll

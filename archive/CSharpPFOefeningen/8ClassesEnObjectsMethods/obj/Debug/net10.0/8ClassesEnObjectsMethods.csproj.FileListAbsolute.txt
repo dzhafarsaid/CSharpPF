@@ -1,0 +1,14 @@
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/8ClassesEnObjectsMethods/bin/Debug/net10.0/8ClassesEnObjectsMethods
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/8ClassesEnObjectsMethods/bin/Debug/net10.0/8ClassesEnObjectsMethods.deps.json
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/8ClassesEnObjectsMethods/bin/Debug/net10.0/8ClassesEnObjectsMethods.runtimeconfig.json
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/8ClassesEnObjectsMethods/bin/Debug/net10.0/8ClassesEnObjectsMethods.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/8ClassesEnObjectsMethods/bin/Debug/net10.0/8ClassesEnObjectsMethods.pdb
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/8ClassesEnObjectsMethods/obj/Debug/net10.0/8ClassesEnObjectsMethods.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/8ClassesEnObjectsMethods/obj/Debug/net10.0/8ClassesEnObjectsMethods.AssemblyInfoInputs.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/8ClassesEnObjectsMethods/obj/Debug/net10.0/8ClassesEnObjectsMethods.AssemblyInfo.cs
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/8ClassesEnObjectsMethods/obj/Debug/net10.0/8ClassesEnObjectsMethods.csproj.CoreCompileInputs.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/8ClassesEnObjectsMethods/obj/Debug/net10.0/8ClassesEnObjectsMethods.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/8ClassesEnObjectsMethods/obj/Debug/net10.0/refint/8ClassesEnObjectsMethods.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/8ClassesEnObjectsMethods/obj/Debug/net10.0/8ClassesEnObjectsMethods.pdb
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/8ClassesEnObjectsMethods/obj/Debug/net10.0/8ClassesEnObjectsMethods.genruntimeconfig.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/8ClassesEnObjectsMethods/obj/Debug/net10.0/ref/8ClassesEnObjectsMethods.dll

@@ -1,0 +1,15 @@
+/Users/dzhafarsaid/Documents/CSharpPF/Vervoersmaatschappij/bin/Debug/net10.0/Vervoersmaatschappij
+/Users/dzhafarsaid/Documents/CSharpPF/Vervoersmaatschappij/bin/Debug/net10.0/Vervoersmaatschappij.deps.json
+/Users/dzhafarsaid/Documents/CSharpPF/Vervoersmaatschappij/bin/Debug/net10.0/Vervoersmaatschappij.runtimeconfig.json
+/Users/dzhafarsaid/Documents/CSharpPF/Vervoersmaatschappij/bin/Debug/net10.0/Vervoersmaatschappij.dll
+/Users/dzhafarsaid/Documents/CSharpPF/Vervoersmaatschappij/bin/Debug/net10.0/Vervoersmaatschappij.pdb
+/Users/dzhafarsaid/Documents/CSharpPF/Vervoersmaatschappij/obj/Debug/net10.0/Vervoersmaatschappij.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dzhafarsaid/Documents/CSharpPF/Vervoersmaatschappij/obj/Debug/net10.0/Vervoersmaatschappij.AssemblyInfoInputs.cache
+/Users/dzhafarsaid/Documents/CSharpPF/Vervoersmaatschappij/obj/Debug/net10.0/Vervoersmaatschappij.AssemblyInfo.cs
+/Users/dzhafarsaid/Documents/CSharpPF/Vervoersmaatschappij/obj/Debug/net10.0/Vervoersmaatschappij.csproj.CoreCompileInputs.cache
+/Users/dzhafarsaid/Documents/CSharpPF/Vervoersmaatschappij/obj/Debug/net10.0/Vervoersmaatschappij.sourcelink.json
+/Users/dzhafarsaid/Documents/CSharpPF/Vervoersmaatschappij/obj/Debug/net10.0/Vervoersmaatschappij.dll
+/Users/dzhafarsaid/Documents/CSharpPF/Vervoersmaatschappij/obj/Debug/net10.0/refint/Vervoersmaatschappij.dll
+/Users/dzhafarsaid/Documents/CSharpPF/Vervoersmaatschappij/obj/Debug/net10.0/Vervoersmaatschappij.pdb
+/Users/dzhafarsaid/Documents/CSharpPF/Vervoersmaatschappij/obj/Debug/net10.0/Vervoersmaatschappij.genruntimeconfig.cache
+/Users/dzhafarsaid/Documents/CSharpPF/Vervoersmaatschappij/obj/Debug/net10.0/ref/Vervoersmaatschappij.dll

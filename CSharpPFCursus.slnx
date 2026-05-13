@@ -1,4 +1,7 @@
 <Solution>
+  <Project Path="BoekBoekenrek/BoekBoekenrek.csproj" />
   <Project Path="CSharpPFCursus/CSharpPFCursus.csproj" />
   <Project Path="CSharpPFOefeningen/CSharpPFOefeningen.csproj" />
+  <Project Path="Streamingdienst/Streamingdienst.csproj" />
+  <Project Path="Vervoersmaatschappij/Vervoersmaatschappij.csproj" />
 </Solution>

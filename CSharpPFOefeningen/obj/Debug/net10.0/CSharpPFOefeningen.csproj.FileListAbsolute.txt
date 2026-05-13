@@ -1,0 +1,15 @@
+/Users/dzhafarsaid/Documents/CSharpPF/CSharpPFOefeningen/bin/Debug/net10.0/CSharpPFOefeningen
+/Users/dzhafarsaid/Documents/CSharpPF/CSharpPFOefeningen/bin/Debug/net10.0/CSharpPFOefeningen.deps.json
+/Users/dzhafarsaid/Documents/CSharpPF/CSharpPFOefeningen/bin/Debug/net10.0/CSharpPFOefeningen.runtimeconfig.json
+/Users/dzhafarsaid/Documents/CSharpPF/CSharpPFOefeningen/bin/Debug/net10.0/CSharpPFOefeningen.dll
+/Users/dzhafarsaid/Documents/CSharpPF/CSharpPFOefeningen/bin/Debug/net10.0/CSharpPFOefeningen.pdb
+/Users/dzhafarsaid/Documents/CSharpPF/CSharpPFOefeningen/obj/Debug/net10.0/CSharpPFOefeningen.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dzhafarsaid/Documents/CSharpPF/CSharpPFOefeningen/obj/Debug/net10.0/CSharpPFOefeningen.AssemblyInfoInputs.cache
+/Users/dzhafarsaid/Documents/CSharpPF/CSharpPFOefeningen/obj/Debug/net10.0/CSharpPFOefeningen.AssemblyInfo.cs
+/Users/dzhafarsaid/Documents/CSharpPF/CSharpPFOefeningen/obj/Debug/net10.0/CSharpPFOefeningen.csproj.CoreCompileInputs.cache
+/Users/dzhafarsaid/Documents/CSharpPF/CSharpPFOefeningen/obj/Debug/net10.0/CSharpPFOefeningen.sourcelink.json
+/Users/dzhafarsaid/Documents/CSharpPF/CSharpPFOefeningen/obj/Debug/net10.0/CSharpPFOefeningen.dll
+/Users/dzhafarsaid/Documents/CSharpPF/CSharpPFOefeningen/obj/Debug/net10.0/refint/CSharpPFOefeningen.dll
+/Users/dzhafarsaid/Documents/CSharpPF/CSharpPFOefeningen/obj/Debug/net10.0/CSharpPFOefeningen.pdb
+/Users/dzhafarsaid/Documents/CSharpPF/CSharpPFOefeningen/obj/Debug/net10.0/CSharpPFOefeningen.genruntimeconfig.cache
+/Users/dzhafarsaid/Documents/CSharpPF/CSharpPFOefeningen/obj/Debug/net10.0/ref/CSharpPFOefeningen.dll

@@ -1,0 +1,14 @@
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/12selecties/bin/Debug/net10.0/12selecties
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/12selecties/bin/Debug/net10.0/12selecties.deps.json
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/12selecties/bin/Debug/net10.0/12selecties.runtimeconfig.json
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/12selecties/bin/Debug/net10.0/12selecties.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/12selecties/bin/Debug/net10.0/12selecties.pdb
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/12selecties/obj/Debug/net10.0/12selecties.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/12selecties/obj/Debug/net10.0/12selecties.AssemblyInfoInputs.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/12selecties/obj/Debug/net10.0/12selecties.AssemblyInfo.cs
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/12selecties/obj/Debug/net10.0/12selecties.csproj.CoreCompileInputs.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/12selecties/obj/Debug/net10.0/12selecties.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/12selecties/obj/Debug/net10.0/refint/12selecties.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/12selecties/obj/Debug/net10.0/12selecties.pdb
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/12selecties/obj/Debug/net10.0/12selecties.genruntimeconfig.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/12selecties/obj/Debug/net10.0/ref/12selecties.dll

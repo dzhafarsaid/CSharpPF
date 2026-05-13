@@ -1,0 +1,14 @@
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/16debuggingInVSCode/bin/Debug/net10.0/16debuggingInVSCode
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/16debuggingInVSCode/bin/Debug/net10.0/16debuggingInVSCode.deps.json
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/16debuggingInVSCode/bin/Debug/net10.0/16debuggingInVSCode.runtimeconfig.json
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/16debuggingInVSCode/bin/Debug/net10.0/16debuggingInVSCode.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/16debuggingInVSCode/bin/Debug/net10.0/16debuggingInVSCode.pdb
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/16debuggingInVSCode/obj/Debug/net10.0/16debuggingInVSCode.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/16debuggingInVSCode/obj/Debug/net10.0/16debuggingInVSCode.AssemblyInfoInputs.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/16debuggingInVSCode/obj/Debug/net10.0/16debuggingInVSCode.AssemblyInfo.cs
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/16debuggingInVSCode/obj/Debug/net10.0/16debuggingInVSCode.csproj.CoreCompileInputs.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/16debuggingInVSCode/obj/Debug/net10.0/16debuggingInVSCode.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/16debuggingInVSCode/obj/Debug/net10.0/refint/16debuggingInVSCode.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/16debuggingInVSCode/obj/Debug/net10.0/16debuggingInVSCode.pdb
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/16debuggingInVSCode/obj/Debug/net10.0/16debuggingInVSCode.genruntimeconfig.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPF/16debuggingInVSCode/obj/Debug/net10.0/ref/16debuggingInVSCode.dll

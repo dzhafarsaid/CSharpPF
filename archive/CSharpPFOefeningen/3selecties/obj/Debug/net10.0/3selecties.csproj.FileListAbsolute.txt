@@ -1,0 +1,14 @@
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/3selecties/bin/Debug/net10.0/3selecties
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/3selecties/bin/Debug/net10.0/3selecties.deps.json
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/3selecties/bin/Debug/net10.0/3selecties.runtimeconfig.json
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/3selecties/bin/Debug/net10.0/3selecties.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/3selecties/bin/Debug/net10.0/3selecties.pdb
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/3selecties/obj/Debug/net10.0/3selecties.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/3selecties/obj/Debug/net10.0/3selecties.AssemblyInfoInputs.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/3selecties/obj/Debug/net10.0/3selecties.AssemblyInfo.cs
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/3selecties/obj/Debug/net10.0/3selecties.csproj.CoreCompileInputs.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/3selecties/obj/Debug/net10.0/3selecties.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/3selecties/obj/Debug/net10.0/refint/3selecties.dll
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/3selecties/obj/Debug/net10.0/3selecties.pdb
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/3selecties/obj/Debug/net10.0/3selecties.genruntimeconfig.cache
+/Users/dzhafarsaid/Desktop/introduction/CSharpPFOefeningen/3selecties/obj/Debug/net10.0/ref/3selecties.dll
