@@ -48,4 +48,9 @@ public class Manager : Bediende
     {
         return base.BerekenKostprijs() + Bonus;
     }
+    public void OnderhoudNoteren(Firma.Materiaal.Fotokopiemachine machine)
+    {
+        Console.WriteLine($" {Naam} registreert het onderhoud " +
+        $"van machine {machine.SerieNr} in het logboek.");
+    }
 }

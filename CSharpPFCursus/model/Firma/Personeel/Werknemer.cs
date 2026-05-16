@@ -1,9 +1,13 @@
 using System;
+using System.Text;
 
 namespace Firma.Personeel;
 
-public abstract partial class Werknemer : IKost
+public delegate string WerknemersLijst(Werknemer[] werknemers);
+
+public abstract partial class Werknemer : IKost, IComparable
 {
+    
     // ── Constructors ───────────────────────────────────
     static Werknemer()
     {
@@ -81,6 +85,33 @@ public abstract partial class Werknemer : IKost
     }
 
     public abstract decimal BerekenKostprijs();
+
+    public int CompareTo(object? obj)
+    {
+        if (obj == null) return 1;
+        Werknemer deAndere = obj as Werknemer;
+        if (deAndere != null)
+            return string.Compare(this.Naam, deAndere.Naam);
+        else
+            throw new ArgumentException("De andere is geen werknemer");
+    }
+        public static string UitgebreideWerknemersLijst(Werknemer[] werknemers)
+    {
+        StringBuilder sb = new StringBuilder();
+        sb.AppendLine("Uitgebreide werknemerslijst:");
+        foreach (Werknemer werknemer in werknemers)
+            sb.AppendLine(werknemer.GetInfo()).AppendLine();
+        return sb.ToString();
+    }
+
+        public static string KorteWerknemersLijst(Werknemer[] werknemers)
+    {
+        StringBuilder sb = new StringBuilder();
+        sb.AppendLine("Verkorte werknemerslijst:");
+        foreach (Werknemer werknemer in werknemers)
+            sb.AppendLine(werknemer.ToString());
+        return sb.ToString();
+    }
 }
 
 // ══════════════════════════════════════════════════════
@@ -148,4 +179,6 @@ public class Arbeider : Werknemer
     {
         return Uurloon * 2000m;
     }
+
+
 }

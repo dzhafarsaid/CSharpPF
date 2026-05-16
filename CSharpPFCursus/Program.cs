@@ -1,9 +1,4 @@
-﻿using MateriaalStatus = Firma.Materiaal.Status;
-using PersoneelStatus = Firma.Personeel.Status;
-
-
-
-// Werknemer ik = new()
+﻿// Werknemer ik = new()
 // {
 //     Naam = "Asterix",
 //     InDienst = new DateTime(2026, 1, 1),
@@ -231,7 +226,208 @@ using PersoneelStatus = Firma.Personeel.Status;
 //    }
 //}
 
-MateriaalStatus statusBoorMachine = MateriaalStatus.Werkend;
-PersoneelStatus statusChef = PersoneelStatus.HogerKader;
-Console.WriteLine(statusBoorMachine);
-Console.WriteLine(statusChef);
+// MateriaalStatus statusBoorMachine = MateriaalStatus.Werkend;
+// PersoneelStatus statusChef = PersoneelStatus.HogerKader;
+// Console.WriteLine(statusBoorMachine);
+// Console.WriteLine(statusChef);
+
+// decimal getal1, getal2;
+// try
+// {
+//     Console.Write("eerste getal: ");
+//     getal1 = decimal.Parse(Console.ReadLine()!);
+//     try
+//     {
+//         Console.Write("tweede getal: ");
+//         getal2 = decimal.Parse(Console.ReadLine()!);
+//         if (getal2 != 0m)
+//             Console.WriteLine("deling: " + getal1 / getal2);
+
+
+//         else
+//             Console.WriteLine("Delen door nul niet toegelaten");
+//     }
+//     catch (FormatException)
+//     {
+//         Console.WriteLine("Je typt e geen getal als tweede getal");
+//     }
+// }
+// catch (FormatException)
+// {
+//     Console.WriteLine("Je typt e geen getal als eerste getal");
+// }
+
+
+// using Firma.Materiaal;
+// try
+// {
+//     Fotokopiemachine machine = new Fotokopiemachine("123", 100, -5.4m);
+//     Console.WriteLine("Machine goed ingevuld");
+// }
+// catch (Exception ex)
+// {
+//     Console.WriteLine("Fout:" + ex.Message);
+// }
+// Console.WriteLine("Einde programma");
+
+// using Firma.Materiaal;
+// try
+// {
+//     Fotokopiemachine machine =
+//     new Fotokopiemachine("123", -100, -5.4m);
+//     Console.WriteLine("Machine goed ingevuld");
+// }
+// catch (Fotokopiemachine.KostPerBlzException ex)
+// {
+//     Console.WriteLine($"Fout: {ex.Message} : {ex.VerkeerdeKost} ");
+// }
+// catch (Fotokopiemachine.AantalGekopieerdeBlzException ex)
+// {
+//     Console.WriteLine($"Fout: {ex.Message} : {ex.VerkeerdAantalBlz} ");
+// }
+// Console.WriteLine("Einde programma");
+
+using CSharpPFCursus.model;
+using System.Collections;
+using Firma.Personeel;
+using Firma.Materiaal;
+using CSharpPFCursus;
+// Console.Write("Provincie: ");
+// string provincie = Console.ReadLine()!;
+// try
+// {
+//     ProvincieInfo info = new ProvincieInfo();
+//     Console.WriteLine(info.ProvincieGrootte(provincie));
+// }
+// catch (Exception ex)
+// {
+//     Console.WriteLine(ex.Message);
+// }
+
+// Arbeider asterix = new Arbeider("Asterix", new DateTime(2026, 1, 1), Geslacht.Man, 24.79m, 3);
+// Bediende obelix = new Bediende("Obelix", new DateTime(2026, 1, 1), Geslacht.Man, 2400.79m);
+// Manager idefix = new Manager("Idefix", new DateTime(2026, 1, 1), Geslacht.Man, 2400.79m, 7000m);
+
+// // ArrayList personeel = new ArrayList();
+// List<Werknemer> personeel = new List<Werknemer>();
+// personeel.Add(asterix);
+// personeel.Add(obelix);
+// personeel.Insert(1, idefix);
+
+// Console.WriteLine($"{personeel[0].Naam}" +
+//     $" is de 1ste van {personeel.Count} personeelsleden.");
+// Console.WriteLine();
+
+// foreach (Werknemer personeelslid in personeel)
+//     Console.WriteLine(personeelslid.Naam);
+// Console.WriteLine();
+
+// Afdeling eenAfdeling = new Afdeling
+// {
+//     Naam = "Verzending",
+//     Verdieping = 0
+// };
+
+// personeel.Add(eenAfdeling);
+// foreach (Werknemer personeelslid in personeel)
+//     Console.WriteLine(personeelslid.Naam);
+
+// Werknemer[] wij = 
+// [
+//     new Arbeider("Asterix", new DateTime(2026, 1, 1), Geslacht.Man, 24.79m, 3),
+//     new Bediende("Obelix", new DateTime(2026, 1, 1), Geslacht.Man, 2400.79m),
+//     new Manager("Idefix", new DateTime(2026, 1, 1), Geslacht.Man, 2400.79m, 7000m)        
+// ];
+
+// WerknemersLijst lijst;
+// lijst = Werknemer.UitgebreideWerknemersLijst;
+// Console.WriteLine(lijst(wij));
+// Console.WriteLine();
+
+// lijst = Werknemer.KorteWerknemersLijst;
+// Console.WriteLine(lijst(wij));
+
+// Fotokopiemachine machine1 = new Fotokopiemachine ( "123" , 0, 2.0m);
+// Fotokopiemachine machine2 = new Fotokopiemachine ( "456" , 0, 2.5m);
+// Bediende eenBediende = new Bediende ( "Asterix" , DateTime .Today, Geslacht .Man, 2400.79m);
+// Manager eenManager = new Manager ( "Idefix" , DateTime .Today, Geslacht .Man, 4800.4m, 2000m);
+// machine1.OnderhoudNodig += eenBediende.DoeOnderhoud;
+// machine1.OnderhoudNodig += eenManager.OnderhoudNoteren;
+// machine2.OnderhoudNodig += eenBediende.DoeOnderhoud;
+// machine2.OnderhoudNodig += eenManager.OnderhoudNoteren;
+// machine1.Fotokopieer(49);
+// machine2.Fotokopieer(14);
+
+// Kwadraat kwadraat = getal => getal * getal;
+// Console.WriteLine(kwadraat(5));
+// Console.WriteLine(kwadraat(10));
+
+// FunctieMetTweeParameters som = (getal1, getal2) => getal1 + getal2;
+// Console.WriteLine(som(3, 7));
+// Console.WriteLine(som(10,6));
+
+// FunctieMetEenParameter omgekeerdeTekst = tekst => new string(tekst.Reverse().ToArray());
+// Console.WriteLine(omgekeerdeTekst("C# is leuk"));
+
+// FucntieZonderParameters willekeurigeGetal = () => new Random().Next(10);
+// Console.WriteLine(willekeurigeGetal());
+
+// int[] getallen = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ];
+// Filter evenFilter = getal => getal % 2 == 0;
+// Console.WriteLine("Even getallen:");
+// ToonGetallen(getallen, evenFilter);
+
+// Console.WriteLine("Oneven getallen:");
+// ToonGetallen(getallen, getal => getal % 2 == 1);
+
+// static void ToonGetallen(int[] getallen, Filter filter)
+// {
+//     foreach (int getal in getallen)
+//     {
+//         if (filter(getal))
+//             Console.WriteLine(getal);
+//     }
+// }
+
+// Console.WriteLine();
+
+// Action<int> kwadraat1 = getal => Console.WriteLine(getal * getal);
+// kwadraat(10);
+
+// Action<string, int> tekstDeel = (tekst, vanaf) => Console.WriteLine(tekst.Substring(vanaf));
+// tekstDeel("VDAB", 2);
+
+int[] getallen = [-5, -3, -1, 0, 1, 3, 5];
+
+Console.WriteLine("Even getallen:");
+Filter evenFilter = getal => getal % 2 == 0;
+Console.ForegroundColor = ConsoleColor.Green;
+ToonGetallen(getallen, evenFilter);
+
+Console.WriteLine("Oneven getallen:");
+Filter onevenFilter = getal => getal % 2 != 0;
+Console.ForegroundColor = ConsoleColor.Red;
+ToonGetallen(getallen, onevenFilter);
+
+Console.WriteLine("Positieve getallen:");
+Filter positieveFilter = getal => getal > 0;
+Console.ForegroundColor = ConsoleColor.Blue;
+ToonGetallen(getallen, positieveFilter);
+
+Console.WriteLine("Negatieve getallen:");
+Filter negatieveFilter = getal => getal < 0;
+Console.ForegroundColor = ConsoleColor.Yellow;
+ToonGetallen(getallen, negatieveFilter);
+
+Console.ResetColor();
+
+static void ToonGetallen(int[] getallen, Filter filter)
+{
+    foreach (int getal in getallen)
+    {
+        if (filter(getal))
+            Console.WriteLine(getal);
+    }
+}
+
+delegate bool Filter(int getal);

@@ -125,21 +125,137 @@
 //      Console.WriteLine(wagen.GeefVervuiling());
 // }
 
-IPrivaat[] wagens = new IPrivaat[2];
-wagens[0] = new Vrachtwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f, 5f);
-wagens[1] = new Personenwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f, 4, 5);
+// IPrivaat[] wagens = new IPrivaat[2];
+// wagens[0] = new Vrachtwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f, 5f);
+// wagens[1] = new Personenwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f, 4, 5);
 
 
-foreach (IPrivaat wagen in wagens)
-{
-     Console.WriteLine(wagen.GeefPrivateData());
-}
+// foreach (IPrivaat wagen in wagens)
+// {
+//      Console.WriteLine(wagen.GeefPrivateData());
+// }
 
-IMilieu[] wagens2 = new IMilieu[2];
-wagens2[0] = new Vrachtwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f, 5f);
-wagens2[1] = new Personenwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f, 4, 5);
+// IMilieu[] wagens2 = new IMilieu[2];
+// wagens2[0] = new Vrachtwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f, 5f);
+// wagens2[1] = new Personenwagen("Jan", "1-ABC-123", 10000m, 75, 6.0f, 4, 5);
 
-foreach (IMilieu wagen2 in wagens)
-{
-     Console.WriteLine(wagen2.GeefMilieuData());
-}
+// foreach (IMilieu wagen2 in wagens)
+// {
+//      Console.WriteLine(wagen2.GeefMilieuData());
+// }
+
+
+
+// Klant klant = new Klant("Jan", "Janssen");
+
+// // ── Test Rekening (via Zichtrekening) ──────────────────────────
+
+// // Test ongeldig rekeningnummer
+// try
+// {
+//     Zichtrekening z = new Zichtrekening("INVALID", 1000, new DateOnly(2000, 1, 1), 0, klant);
+// }
+// catch (Rekening.OngeldigRekeningnummer ex)
+// {
+//     Console.WriteLine("Ongeldig rekeningnummer: " + ex.Message);
+// }
+
+// // Test creatiedatum voor 1-1-1990
+// try
+// {
+//     Zichtrekening z = new Zichtrekening("BE68539007547034", 1000, new DateOnly(1985, 1, 1), 0, klant);
+// }
+// catch (Rekening.VerkeerdeDatum ex)
+// {
+//     Console.WriteLine("Verkeerde datum: " + ex.Message);
+// }
+
+// // ── Test Zichtrekening ─────────────────────────────────────────
+
+// // Test positieve maxKrediet
+// try
+// {
+//     Zichtrekening z = new Zichtrekening("BE68539007547034", 1000, new DateOnly(2000, 1, 1), 500, klant);
+// }
+// catch (Zichtrekening.FoutMaxKrediet ex)
+// {
+//     Console.WriteLine("Fout max krediet: " + ex.Message);
+// }
+
+// // ── Test Spaarrekening ─────────────────────────────────────────
+
+// // Test negatieve intrest
+// try
+// {
+//     Spaarrekening.Intrest = -5;
+// }
+// catch (Spaarrekening.FoutIntrest ex)
+// {
+//     Console.WriteLine("Fout intrest: " + ex.Message);
+// }
+
+// // ── Test Kasbon ────────────────────────────────────────────────
+
+// // Test datum voor 1-1-1990
+// try
+// {
+//     Kasbon k = new Kasbon(new DateOnly(1980, 1, 1), 1000, 5, 3, klant);
+// }
+// catch (Kasbon.VerkeerdeDatum ex)
+// {
+//     Console.WriteLine("Verkeerde datum: " + ex.Message);
+// }
+
+// // Test negatief bedrag
+// try
+// {
+//     Kasbon k = new Kasbon(new DateOnly(2000, 1, 1), -500, 5, 3, klant);
+// }
+// catch (Kasbon.FoutBedrag ex)
+// {
+//     Console.WriteLine("Fout bedrag: " + ex.Message);
+// }
+
+// // Test negatieve looptijd
+// try
+// {
+//     Kasbon k = new Kasbon(new DateOnly(2000, 1, 1), 1000, -5, 3, klant);
+// }
+// catch (Kasbon.FoutLooptijd ex)
+// {
+//     Console.WriteLine("Fout looptijd: " + ex.Message);
+// }
+
+// // Test negatieve intrest
+// try
+// {
+//     Kasbon k = new Kasbon(new DateOnly(2000, 1, 1), 1000, 5, -3, klant);
+// }
+// catch (Kasbon.FoutIntrest ex)
+// {
+//     Console.WriteLine("Fout intrest: " + ex.Message);
+// }
+
+// Console.WriteLine("Alle tests voltooid.");
+
+using CSharpPFOefeningen.model;
+
+// Create a bank
+Bank bank = new Bank { BankId = "001", Naam = "BNP Paribas" };
+
+// Create accounts
+Zichtrekening zicht = new Zichtrekening("BE68539007547034", 500, DateOnly.FromDateTime(DateTime.Today), 0, new Klant("Jan", "Janssen"));
+Spaarrekening spaar = new Spaarrekening("BE43068999999501", 1000, DateOnly.FromDateTime(DateTime.Today), new Klant("Jan", "Janssen"));
+
+// Subscribe — "when this event fires, call this method"
+zicht.RekeningUittreksel += bank.ToonRekeningUittreksel;
+zicht.SaldoInHetRood += bank.ToonSaldoFout;
+
+spaar.RekeningUittreksel += bank.ToonRekeningUittreksel;
+spaar.SaldoInHetRood += bank.ToonSaldoFout;
+
+// Trigger RekeningUittreksel
+zicht.Storten(200);
+
+// Trigger SaldoInHetRood
+zicht.Afhalen(9999);

@@ -1,4 +1,5 @@
 ﻿using Firma.Personeel;
+using Firma.Materiaal;
 using System;
 
 
@@ -46,5 +47,10 @@ public class Bediende : Werknemer
     public override decimal BerekenKostprijs()
     {
         return Wedde * 12m;
+    }
+
+    public void DoeOnderhoud(Fotokopiemachine machine)
+    {
+        Console.WriteLine($"{Naam} onderhoudt machine {machine.SerieNr}");
     }
 }
